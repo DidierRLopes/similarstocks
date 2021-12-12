@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "similarstocks"
+version = "0.1.0"
+description = "This repository will hold similar stocks based on their description through NLP models"
+authors = ["DidierRLopes <dro.lopes@campus.fct.unl.pt>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+financedatabase = "^1.0.2"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
