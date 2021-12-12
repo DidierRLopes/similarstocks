@@ -4,7 +4,7 @@ This repository will hold similar stocks based on their description through NLP 
 
 The methodology is described below:
 
-1. Using FinanceDatabase package filter from companies within same Sector and Industry. We do not want to filter by Country and/or Market cap as we want to get similar companies based on what they do, regardless of their location and their market cap.
+1. Using [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) package filter from companies within same Sector and Industry. We do not want to filter by Country and/or Market cap as we want to get similar companies based on what they do, regardless of their location and their market cap.
 
 2. Pick an NLP algorithm to compare the description between these companies in the same Sector and Industry, e.g. cosine similarity.
 
