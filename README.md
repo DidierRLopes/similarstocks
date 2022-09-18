@@ -2,6 +2,10 @@
 
 This repository will hold similar stocks based on their description through NLP models.
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/25267873/190926950-40df3689-10dc-4c3a-b83e-bb2c16150121.png" alt="SimilarStocks" width="700">
+</p>
+
 The methodology is described below:
 
 1. Using [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) package filter from companies within same Sector and Industry. We do not want to filter by Country and/or Market cap as we want to get similar companies based on what they do, regardless of their location and their market cap.
